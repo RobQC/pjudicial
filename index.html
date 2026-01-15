@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Poder Judicial del Perú – Orientación del Proceso Civil</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Orientación al Usuario Judicial – Proceso Civil">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+<header role="banner">
+  <img src="img/logo_poder_judicial.png" alt="Logo del Poder Judicial del Perú">
+
+  <p>Bienvenidos a Servicio de orientación al usuario judicial</p>
+  <h2>¿Y ahora qué sigue en mi proceso civil?</h2>
+</header>
+
+<main id="contenido" class="container" role="main">
+  <section class="alert" aria-live="polite">
+    ⚠️ Información orientativa. No constituye asesoría legal ni reemplaza decisiones jurisdiccionales.
+  </section>
+
+  <section aria-labelledby="asistente">
+    <h2 id="asistente">Asistente paso a paso</h2>
+    <p>Selecciona tu situación actual en el proceso civil:</p>
+
+    <div class="options" role="navigation">
+      <button onclick="mostrar('op1')" aria-controls="op1">
+      <img src="img/pdemanda.png" alt="" style="width:40px; vertical-align:middle; margin-right:6px;"> 
+      Demanda Presentada</button> 
+      <button onclick="mostrar('op2')" aria-controls="op2">
+      <img src="img/dadmitida.PNG" alt="" style="width:40px; vertical-align:middle; margin-right:6px;"> 
+      Demanda Admitida</button>
+      <button onclick="mostrar('op3')" aria-controls="op3">
+      <img src="img/raudiencia.PNG" alt="" style="width:40px; vertical-align:middle; margin-right:6px;"> 
+      Audiencia Realizada</button>
+      <button onclick="mostrar('op4')" aria-controls="op4">
+      <img src="img/tsentencia.PNG" alt="" style="width:40px; vertical-align:middle; margin-right:6px;"> 
+      Sentencia Emitida</button>
+      <button onclick="mostrar('op5')" aria-controls="op5">
+      <img src="img/esentencia.PNG" alt="" style="width:40px; vertical-align:middle; margin-right:6px;"> 
+      Ejecución de Sentencia</button>
+    </div>
+  </section>
+
+  <section id="op1" class="content" tabindex="0">
+    <h3>📄 Demanda presentada</h3>
+    <!-- <p>El escrito se encuentra en etapa de calificación conforme al Código Procesal Civil.</p> -->
+     <p>
+      <img src="demanda.jpg" alt="" style="width:16px; vertical-align:middle; margin-right:6px;">
+        El escrito se encuentra en etapa de calificación conforme al Código Procesal Civil.
+      </p>
+      <img src="img/demanda.jpeg" alt="Imagen centrada" class="img-centrada">
+  </section>
+
+  <section id="op2" class="content" tabindex="0">
+    <h3>🧾 Demanda admitida</h3>
+    <p>El juzgado ordena notificar al demandado para que ejerza su derecho de defensa.</p>
+          <img src="img/admitida.jpeg" alt="Imagen centrada" class="img-centrada">
+  </section>
+
+  <section id="op3" class="content" tabindex="0">
+    <h3>⚖️ Audiencia realizada</h3>
+    <p>El expediente queda al voto o pendiente de sentencia según el tipo de proceso.</p>
+          <img src="img/1.jpeg" alt="Imagen centrada" class="img-centrada">
+  </section>
+
+  <section id="op4" class="content" tabindex="0">
+    <h3>📝 Sentencia emitida</h3>
+    <p>La resolución puede quedar consentida o ser impugnada dentro del plazo legal.</p>
+          <img src="img/2.jpeg" alt="Imagen centrada" class="img-centrada">
+  </section>
+
+  <section id="op5" class="content" tabindex="0">
+    <h3>🔨 Ejecución de sentencia</h3>
+    <p>El juzgado adopta medidas para el cumplimiento de la decisión judicial firme.</p>
+          <img src="img/3.jpeg" alt="Imagen centrada" class="img-centrada">
+  </section>
+</main>
+
+<footer role="contentinfo">
+  <p>Poder Judicial del Perú – Todos los derechos reservados</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
